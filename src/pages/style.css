@@ -1,0 +1,243 @@
+.Hero{
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.Hero span{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.Hero h3{
+    margin: 0;
+    font-size: 1.3vw;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Hero h2{
+    margin: 0;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+}
+
+.Hero h2 b{
+    font-weight: 500;
+    background: -webkit-linear-gradient(0deg,#aaf8ff, #38bcc7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Hero_Left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.Hero button{
+    height: 38px;
+    width: 135px;
+    color: #000;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.Hero button:hover{
+    box-shadow: 0px 0px 15px #38bcc7;
+}
+
+.Hero_Right{
+    width: 50%;
+    height: 70%;
+    background: url('../assets/hero.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.Hero_Design1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #38bcc7;
+    position: absolute;
+    filter: blur(100px);
+}
+
+.Hero_Design2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #38bcc7;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    filter: blur(100px);
+}
+
+.Projects{
+    display: flex;
+    position: relative;
+}
+
+.Projects span{
+    width: 80vw;
+    height: fit-content;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: calc(33.33% - 15px) calc(33.33% - 15px) calc(33.33% - 15px);
+    margin: 0 10vw;
+    padding-bottom: 130px;
+}
+
+.Projects_Design1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #38bcc7;
+    position: absolute;
+    filter: blur(100px);
+    bottom: 0;
+}
+
+.Projects_Con{
+    background-color: #111;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.Projects_Con:hover{
+    box-shadow: 0px 0px 5px #38bcc7;
+}
+
+.Projects_Con_Badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    background-color: #38bbc795;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.Projects_Con:hover .Projects_Con_Badge{
+    opacity: 1;
+}
+
+.Projects_Con_Overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #38bbc740;
+    z-index: 50;
+    transition: 0.3s ease;
+    opacity: 0;
+    backdrop-filter: blur(5px);
+}
+
+.Projects_Con:hover .Projects_Con_Overlay{
+    opacity: 1;
+}
+
+.Projects img{
+    aspect-ratio: 1.777;
+    width: 100%;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Projects_Con h3{
+    margin: 0 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Projects_Con p{
+    margin: 0 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 750px) {
+    .Projects span{
+        grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Hero{
+        height: auto;
+        padding: 80px 0;
+    }
+    .Hero_Left{
+        width: 100%;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .Hero h3{
+        font-size: 13px;
+        text-align: center;
+    }
+    .Hero h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .Hero_Right{
+        width: 100%;
+        height: 50vh;
+        margin-top: 25px;
+        background-position: center;
+    }
+    .Hero span{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hero button{
+        font-size: 15px;
+    }
+    .Projects span{
+        display: flex;
+        flex-direction: column;
+    }
+    .Projects_Con h3{
+        font-size: 15px;
+    }
+    
+    .Projects_Con p{
+        font-size: 14px;
+    }
+    .Projects span{
+        padding-bottom: 80px;
+    }
+}

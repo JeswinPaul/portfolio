@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { useRef } from 'react';
 import './App.css';
+import Header from './layout/header';
+import Hero from './pages/hero';
+import Projects from './pages/projects';
+import Footer from './layout/footer';
 
 function App() {
+  const appRef = useRef()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div ref={appRef} className="App">
+      <Header appRef={appRef}/>
+      <Hero/>
+      <Projects/>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,97 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    backdrop-filter: blur(1px);
+    transition: 0.2s ease;
+}
+
+.Header_Black{
+    background-color: #0000004d;
+}
+
+.Header span{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header h1{
+    margin: 0;
+    /* width: 103px; */
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Arizonia', cursive;
+    color: #fff;
+}
+
+.Header ul{
+    display: flex;
+    list-style: none;
+    gap: 0 30px;
+}
+
+.Header ul a{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.Header ul a::before{
+    content: attr(content);
+    position: absolute;
+    z-index: 1;
+    color: #38bcc7;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 1s ease;
+}
+
+.Header ul a:hover:before{
+    opacity: 1;
+    height: 100%;
+}
+
+.Header button{
+    height: 38px;
+    width: 103px;
+    color: #000;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #38bcc7;
+}
+
+.Header_Icon{
+    display: none;
+    color: #fff;
+    font-size: 40px;
+}
+
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .Header ul{
+        display: none;
+    }
+    .Header h1{
+        font-size: 27px;
+    }
+    .Header_Icon{
+        display: flex;
+    }
+}
