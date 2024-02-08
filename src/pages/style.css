@@ -91,6 +91,40 @@
     filter: blur(100px);
 }
 
+.Stat{
+    display: flex;
+    justify-content: center;
+}
+
+.Stat span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    width: 80%;
+    background-color: #171717;
+    border-radius: 10px;
+}
+
+.Stat_Con{
+    display: flex;
+    flex-direction: column;
+}
+
+.Stat h2{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(0deg,#aaf8ff, #38bcc7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Stat p{
+    margin: 0;
+    color: #fff;
+}
+
 .Projects{
     display: flex;
     position: relative;
@@ -103,7 +137,7 @@
     justify-content: space-between;
     grid-template-columns: calc(33.33% - 15px) calc(33.33% - 15px) calc(33.33% - 15px);
     margin: 0 10vw;
-    padding-bottom: 130px;
+    padding: 130px 0;
 }
 
 .Projects_Design1{
@@ -117,7 +151,7 @@
 }
 
 .Projects_Con{
-    background-color: #111;
+    background-color: #171717;
     margin-top: 15px;
     border-radius: 10px;
     padding-bottom: 20px;
@@ -187,9 +221,38 @@
     font-size: 15px;
 }
 
+@media screen and (max-width: 1000px) {
+    .Stat h2{
+        font-size: 25px;
+    }
+    
+    .Stat p{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .Projects span{
         grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+    }
+
+    .Stat span{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    .Stat_Con{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .Stat h2{
+        font-size: 25px;
+    }
+    
+    .Stat p{
+        font-size: 15px;
     }
 }
 

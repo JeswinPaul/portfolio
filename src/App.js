@@ -4,6 +4,7 @@ import Header from './layout/header';
 import Hero from './pages/hero';
 import Projects from './pages/projects';
 import Footer from './layout/footer';
+import Stat from './pages/stat';
 
 function App() {
   const appRef = useRef()
@@ -11,6 +12,7 @@ function App() {
     <div ref={appRef} className="App">
       <Header appRef={appRef}/>
       <Hero/>
+      <Stat/>
       <Projects/>
       <Footer/>
     </div>
