@@ -7,7 +7,7 @@ export default function Hero() {
       <span>
         <div className='Hero_Left'>
           <h2>I'm Jeswin<br/><b>Full stack developer</b></h2>
-          <h3>Specialize in web and mobile application Development</h3>
+          <h3>Specialize in web and mobile application development</h3>
           <button>Enquire Now</button>
         </div>
         <div className='Hero_Right'/>
