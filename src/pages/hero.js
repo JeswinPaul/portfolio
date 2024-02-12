@@ -8,7 +8,7 @@ export default function Hero() {
         <div className='Hero_Left'>
           <h2>I'm Jeswin<br/><b>Full stack developer</b></h2>
           <h3>Specialize in web and mobile application development</h3>
-          <button>Enquire Now</button>
+          <a href='mailto:jeswinpaul1@gmail.com'>Enquire Now</a>
         </div>
         <div className='Hero_Right'/>
       </span>

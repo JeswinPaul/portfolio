@@ -5,6 +5,7 @@ import Hero from './pages/hero';
 import Projects from './pages/projects';
 import Footer from './layout/footer';
 import Stat from './pages/stat';
+import Loading from './pages/loading';
 
 function App() {
   const appRef = useRef()
@@ -15,6 +16,7 @@ function App() {
       <Stat/>
       <Projects/>
       <Footer/>
+      <Loading/>
     </div>
   );
 }

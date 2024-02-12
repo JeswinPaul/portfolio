@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Projects() {
   return (
-    <div className='Projects'>
+    <div id='Projects' className='Projects'>
         <span>
             {data?.map((item, index)=>{
               return(

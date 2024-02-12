@@ -23,9 +23,9 @@
 .Header h1{
     margin: 0;
     /* width: 103px; */
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
-    font-family: 'Arizonia', cursive;
+    /* font-family: 'Arizonia', cursive; */
     color: #fff;
 }
 
@@ -89,7 +89,7 @@
         display: none;
     }
     .Header h1{
-        font-size: 27px;
+        font-size: 20px;
     }
     .Header_Icon{
         display: flex;
