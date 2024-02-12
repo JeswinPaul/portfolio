@@ -39,7 +39,7 @@ const data = [
   {img:require('../assets/14.webp'), url:"https://xand.app", title:"Xand",role:"Full stack developer", type:"Web App"},
   {img:require('../assets/15.webp'), url:"https://steponee.vercel.app/", title:"Zwink",role:"Full stack developer", type:"Web App"},
   {img:require('../assets/4.webp'), url:"https://hds-site.vercel.app/", title:"HDS", role:"Front-End developer"},
-  {img:require('../assets/17.webp'), url:"https://play.google.com/store/apps/details?id=org.yfci.connect", title:"YFC Event App", role:"Full stack developer", type:"Mobile"},
-  {img:require('../assets/18.webp'), url:"https://play.google.com/store/apps/details?id=in.zwink.app", title:"Zwink Education App", role:"Full stack developer", type:"Mobile"},
-  {img:require('../assets/19.webp'), url:"https://play.google.com/store/apps/details?id=com.mykeystone.yfcsaturate", title:"Saturate", role:"Full stack developer", type:"Mobile"},
+  {img:require('../assets/17.webp'), url:"https://play.google.com/store/apps/details?id=org.yfci.connect", title:"YFC Event App (Android/iOS)", role:"Full stack developer", type:"Mobile"},
+  {img:require('../assets/18.webp'), url:"https://play.google.com/store/apps/details?id=in.zwink.app", title:"Zwink Education App (Android/iOS)", role:"Full stack developer", type:"Mobile"},
+  {img:require('../assets/19.webp'), url:"https://play.google.com/store/apps/details?id=com.mykeystone.yfcsaturate", title:"Saturate (Android/iOS)", role:"Full stack developer", type:"Mobile"},
 ]
