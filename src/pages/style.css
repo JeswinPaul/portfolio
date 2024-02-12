@@ -162,6 +162,7 @@
     transition: 0.3s ease;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .Projects_Con:hover{
