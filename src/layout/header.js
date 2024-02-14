@@ -31,7 +31,7 @@ export default function Header({appRef}) {
                 <li><a content='My Projects' onClick={()=>GoToProject()}>My Projects</a></li>
                 {/* <li><a content='About'>About</a></li> */}
             </ul>
-            <div className='Header_Icon'>≡</div>
+            <div className='Header_Icon' onClick={()=>GoToProject()}>≡</div>
         </span>
     </div>
   )
