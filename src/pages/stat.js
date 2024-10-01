@@ -6,11 +6,11 @@ export default function Stat() {
     <div className='Stat'>
         <span>
             <div className='Stat_Con'>
-                <h2>35+</h2>
+                <h2>75+</h2>
                 <p>Projects</p>
             </div>
             <div className='Stat_Con'>
-                <h2>10+</h2>
+                <h2>20+</h2>
                 <p>Global Clients</p>
             </div>
             <div className='Stat_Con'>

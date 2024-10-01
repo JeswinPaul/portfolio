@@ -71,7 +71,7 @@ export default function Loading() {
 
   return (
     <div className={areAllImagesLoaded? 'Loading' : 'Loading Loading_Show'}>
-        <span class="loader"></span>
+        <span className="loader"></span>
     </div>
   )
 }
