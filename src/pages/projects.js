@@ -43,7 +43,7 @@ const data = [
   {img:require('../assets/8.webp'), url:"https://www.rhoxcoin.com/", title:"Rhox Coin",role:"Front-End developer"},
   {img:require('../assets/9.webp'), url:"https://farmingunderdogs.com", title:"Farming Underdogs",role:"Front-End developer"},
   {img:require('../assets/11.webp'), url:"https://zlize.vercel.app", title:"Zlize (personal project)",role:"Full stack developer", type:"Web App"},
-  {img:require('../assets/12.webp'), url:"https://finncare-travel.com", title:"Finncare Travel",role:"Full stack developer", type:"Web App"},
+  {img:require('../assets/12.webp'), url:"https://finncare.vercel.app", title:"Finncare Travel",role:"Full stack developer", type:"Web App"},
   {img:require('../assets/13.webp'), url:"https://ube.app", title:"Unstopable Blue Eagles",role:"Front-End developer"},
   {img:require('../assets/14.webp'), url:"https://xand.app", title:"🚧 Xand 🚧",role:"Full stack developer", type:"Web App"},
   {img:require('../assets/15.webp'), url:"https://steponee.vercel.app/", title:"Zwink",role:"Full stack developer", type:"Web App"},
