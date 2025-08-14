@@ -33,7 +33,9 @@ const data = [
   {img:require('../assets/2.webp'), url:"https://www.planbdentalclinic.com", title:"Plan B Dental Clinic",role:"Front-End developer"},
   {img:require('../assets/10.webp'), url:"https://lovellamas.io", title:"Love Llamas", role:"Front-End developer"},
   {img:require('../assets/24.webp'), url:"https://zhacode.com", title:"Zhacode",role:"Front-End developer"},
-  {img:require('../assets/5.webp'), url:"https://backgen.io", title:"Backgen.io (personal project)", role:"Full stack developer", type:"Web App"},
+  // {img:require('../assets/5.webp'), url:"https://backgen.io", title:"Backgen.io (personal project)", role:"Full stack developer", type:"Web App"},
+  {img:require('../assets/27.webp'), url:"https://ookk.vercel.app", title:"🚧 AI-Chat (personal project) 🚧", role:"Full stack developer", type:"Web App"},
+  {img:require('../assets/28.webp'), url:"https://pixpal.app", title:"🚧 PixPal (personal project) 🚧", role:"Full stack developer", type:"Web App"},
   {img:require('../assets/3.webp'), url:"https://pefitness.in/home", title:"🚧 PE Fitness 🚧",role:"Front-End developer"},
   {img:require('../assets/6.webp'), url:"https://mayaprotocol.vercel.app", title:"Maya Mask",role:"Front-End developer"},
   {img:require('../assets/7.webp'), url:"https://zybertone.com", title:"Zybertone",role:"Front-End developer"},
@@ -47,6 +49,6 @@ const data = [
   {img:require('../assets/15.webp'), url:"https://steponee.vercel.app/", title:"Zwink",role:"Full stack developer", type:"Web App"},
   {img:require('../assets/4.webp'), url:"https://hds-site.vercel.app/", title:"HDS", role:"Front-End developer"},
   {img:require('../assets/17.webp'), url:"https://play.google.com/store/apps/details?id=org.yfci.connect", title:"YFC Event App (Android/iOS)", role:"Full stack developer", type:"Mobile"},
-  {img:require('../assets/18.webp'), url:"https://play.google.com/store/apps/details?id=in.zwink.app", title:"Zwink Education App (Android/iOS)", role:"Full stack developer", type:"Mobile"},
+  {img:require('../assets/18.webp'), url:"https://play.google.com/store/apps/details?id=app.zwink.mobile", title:"Zwink Education App (Android/iOS)", role:"Full stack developer", type:"Mobile"},
   {img:require('../assets/19.webp'), url:"https://play.google.com/store/apps/details?id=com.mykeystone.yfcsaturate", title:"Saturate (Android/iOS)", role:"Full stack developer", type:"Mobile"},
 ]
